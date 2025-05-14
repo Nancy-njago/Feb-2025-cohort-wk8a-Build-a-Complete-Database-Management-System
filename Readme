@@ -1,9 +1,9 @@
-# 🚚 Delivery Service Management System
+ Delivery Service Management System
 
-## 📄 Project Description
+ Project Description
 This project is a **MySQL-based Delivery Service Management System** that simulates the operations of a real-world delivery company. It includes core entities such as customers, drivers, packages, locations, and orders. The database is designed with normalization principles to ensure data integrity, eliminate redundancy, and enable efficient queries.
 
-### Key Features:
+Key Features:
 - Manage customers and drivers
 - Track package deliveries with pickup and drop-off locations
 - Record multiple packages per order
@@ -12,23 +12,19 @@ This project is a **MySQL-based Delivery Service Management System** that simula
 
 ---
 
-## 🛠️ Setup Instructions
+ Setup Instructions
 
-### 1. Prerequisites:
+ Prerequisites:
 - MySQL Server (8.0+ recommended)
 - MySQL Workbench or any SQL client
 - Git (optional, for version control)
 
-### 2. Running the Project:
+ Running the Project:
 
-#### Option A – Using MySQL CLI or Workbench:
+ Using MySQL CLI or Workbench:
 1. Clone or download the project repository
 2. Open `delivery_service.sql`
 3. Execute the script to create the database, tables, and insert sample data
 
-#### Option B – Import via Command Line:
-```bash
-mysql -u your_username -p < delivery_service.sql
-
-ERD 
+ERD DIAGRAM
 
